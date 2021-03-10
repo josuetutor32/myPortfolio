@@ -124,7 +124,7 @@ body {
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('./profileimg/Capture.PNG');
+    background-image: url('Capture.PNG');
 }
 .about-me {
     width: 100vw;
