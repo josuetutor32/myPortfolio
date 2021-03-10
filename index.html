@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+    <script src="aos.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header" data-aos="fade-down">
+            <div class="mememe"></div>
+            <div class="connect">
+                <a href="https://web.facebook.com/justinjostinclarenze112386"><img src="./profileimg/fb.png" alt="facebook"></a>
+                <a href="https://twitter.com"><img src="./profileimg/twitter.jfif" alt="twitter"></a>
+                <a href="https://github.com/josuetutor32/Portfolio"><img src="./profileimg/git.jpg" alt="instagram"></a>
+            </div>
+        </div>
+        <div class="main">
+            <div class="profile" data-aos="fade-right" data-profile>
+                <div class="profile-image" data-profile-image>
+                    <div class="button-category" data-aos="fade-right"data-aos-delay="500" data-aos-duration="1000">
+                        <button class="button" data-button-category >&TripleDot;</button>
+                    </div>
+                    <div class="my-profile-image" data-my-profile-image>
+                        <img src="./profileimg/uke3.jpg" alt="justine">
+                    </div>
+                </div>
+                <div class="profile-status" data-profile-status data-aos-offset="100" data-aos-delay="50"
+                    data-aos-duration="500" data-aos-easing="ease-in-out" data-aos-mirror="true"
+                    data-aos-once="false" data-aos-anchor-placement="top-center" data-aos="zoom-in">
+                    <div class="about-my-self" id="about-my-self" data-about-my-self>
+                        <div class="my-self-container" data-my-self-container>
+                            <ul class="list-container" data-list-container>
+                                <li><h2>ABOUT ME</h2></li>
+                                <ul>
+                                    <li>JOSUE M. TUTOR</li>
+                                    <li>33 YEARS OLD</li>
+                                    <li>I LOVE TO PLAY DOTA 2</li>
+                                    <li>MY FAVORITE PET IS CAT</li>
+                                    <li>I HATE LIQOUR DRINKS</li>
+                                    <li>I DON'T LIKE SMOKE LIKE CIGARETTS</li>
+                                    <li>I HAVE PROFESSIONAL DRIVER LICENSE</li>
+                                    <li>FOURT YEAR COMSCI STUDENT GRADUATING THIS YEAR 2020 AT ACLC COLLEGE OF TAYTAY(ACLC)</li>
+                                </ul>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="about-my-self" id="my-projects" data-my-projects>
+                        <div class="about-container" data-my-projects-container>
+                            <ul class="list-container" data-list-container="">
+                                <li><h2>SELF PROJECTS</h2></li>
+                                    <ul>
+                                        <li>ANDROID APPLICATION</li>
+                                        <li>ASSET MANAGEMENT SYSTEM (DATA ENTRY)</li>
+                                        <li>INVENTORY MONITORING SYSTEM</li>
+                                        <li>ENROLLMENT SYSTEM</li>
+                                        <li>E-COMMERCE DEVELOPMENT</li>
+                                        <li>ARDUINO HOME SECURITY SYSTEM</li>
+                                    </ul>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="about-my-self" id="my-skills" data-my-skills>
+                        <div class="my-skills-container" data-my-skills-container >
+                            <ul class="list-container" data-list-container="">
+                                <li><h2>MY SKILLS</h2></li>
+                                    <ul>
+                                        <li>CREATE A WEBSITE USING HTML PROGRAMMING LANGUAGE</li>
+                                        <li>CASCADING STYLE SHEET(CSS) DESIGNING</li>
+                                        <li>ANIMATING AND TRANSITIONING EFFECTS USING (AOS)</li>
+                                        <li>BASIC UNDERSTANDING IN JAVASCRIPT</li>
+                                        <li>BASIC UNDERSTANDING IN PHP</li>
+                                        <li>BASIC UNDERSTANDING IN VUE.JS</li>
+                                        <li>BASIC UNDERSTANDING IN MYSQL</li>
+                                        <li>ARDUINO DEVELOPMENT WITH ANDROID CONTROLLER</li>
+                                    </ul>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="more" data-aos="fade-left" data-more>
+            </div>
+            <div class="about-me" data-aos="fade-up" data-about-me>
+                <div class="one" data-aos="flip-up">
+                    <img src="./profileimg/majinbu1.jpg" alt="majinbu">
+                </div>
+                <div class="two" data-aos="flip-left">
+                    <img src="./profileimg/monster.jpg" alt="majinbu">
+                </div>
+                <div class="three" data-aos="flip-right">
+                    <img src="./profileimg/dota3mobile.jpg" alt="majinbu">
+                </div>
+            </div>
+        </div>
+        <div class="footer" data-footer-container >
+            <div>
+                <h3>EMAIL ME:</h3>
+                <h3>CONTACT ME:</h3>
+            </div>
+            <div>
+                <h3>tutorjosue32@gmail.com</h3>
+                <h3>0921-525-6953</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="links-container" data-links-container>
+        <span class="span" onclick="this.parentElement.style.display = 'none'">&times;</span>
+        <div class="links-category" data-links-category >
+            <div class="links">
+                <button class="buttons" onclick="show_status('about-my-self')">ABOUT ME</button>    
+                <button class="buttons" onclick="show_status('my-projects')">PROJECTS</button>
+                <button class="buttons" onclick="show_status('my-skills')">MY SKILLS</button>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
