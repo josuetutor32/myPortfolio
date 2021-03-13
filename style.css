@@ -152,7 +152,7 @@ body {
     transform: scale(1.1);
 }
 .about-my-self {
-    cursor: default;
+    cursor: pointer;
     width: auto;
     display: none;
     z-index: 999;
