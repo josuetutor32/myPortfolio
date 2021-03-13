@@ -124,7 +124,7 @@ body {
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('Capture.PNG');
+    background-image: url('Capture.jpg');
 }
 .about-me {
     width: 100vw;
@@ -152,10 +152,13 @@ body {
     transform: scale(1.1);
 }
 .about-my-self {
+    cursor: default;
     width: auto;
     display: none;
+    z-index: 999;
 }
 .about-my-self div {
+    cursor: pointer;
     border-radius: 1rem;
     animation-duration: 1s;
     animation: dada 1s ease-in-out;
@@ -219,7 +222,6 @@ body {
     color: white;
 }
 .list-container {
-    cursor: not-allowed;
     text-align: start;
     list-style-type: none;
     font-size: calc(12px + (13 - 7)
